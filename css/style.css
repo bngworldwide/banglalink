@@ -1,0 +1,282 @@
+:root {
+    --primary-color: #ee6c3d;
+    --secondary-color: #5bc0a6;
+}
+
+body {
+    background: #f2eff6;
+}
+
+.spacer-top {
+    height: 3px;
+    background: #caf13c;
+    width: 100%;
+}
+
+.text-main {
+    color: var(--primary-color);
+}
+
+.bg-main {
+    background: var(--primary-color) !important;
+}
+
+.bg-second {
+    background: var(--secondary-color) !important;
+}
+
+.navbar {
+    background: url(../assets/img/topbar.jpg);
+    background-size: cover
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #fff
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--secondary-color)
+}
+
+button:focus {
+    outline: 0
+}
+
+.carousel-controls {
+    height: 25px;
+    background: rgba(0, 0, 0, .5)!important;
+    width: 30px
+}
+
+ol.carousel-indicators {
+    margin-bottom: 0
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+
+.carousel-indicators .active {
+    background-color: var(--secondary-color)
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 7%
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 15px;
+    height: 15px
+}
+
+.text-primary {
+    color: var(--primary-color)!important
+}
+
+.button-primary {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: #fff
+}
+
+.button-primary:hover {
+    color: #fff
+}
+
+.btn:focus {
+    box-shadow: none
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.slick-slide img {
+    margin: 0 auto
+}
+
+.slick-next:before, .slick-prev:before {
+    color: var(--secondary-color)
+}
+
+.slick-dots li button:before {
+    font-size: 10px
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--secondary-color)
+}
+
+.slick-dots li {
+    margin: 0
+}
+
+.slick-next {
+    right: -6px
+}
+
+.slick-prev {
+    left: -6px
+}
+
+.slick-next, .slick-prev {
+    background: #f9f9f9;
+    z-index: 1
+}
+
+.w-80 {
+    width: 80%;
+    margin: 0 auto
+}
+
+.btn-fb {
+    background: #3b5998 !important;
+    border: #3b5998 !important;
+    font-weight: 600;
+}
+
+.footer-section {
+    background: url("../assets/img/footer.jpg");
+    background-size: cover;
+}
+
+small {
+    font-size: 65%;
+}
+
+.games-carousel .card, .card .btn-card {
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.games-carousel .card .card-img-top {
+    width: 100%;
+    height: 185px;
+}
+
+.games-carousel .slick-current.slick-active .card-img-top {
+    height: auto;
+}
+
+.games-carousel .slick-current.slick-active button {
+    background: var(--secondary-color) !important;
+}
+
+.games-carousel .slick-current.slick-active .card-title {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.games-carousel .card {
+    top: 30px;
+    width: 16rem;
+    margin: 10px;
+    height: auto;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+    transition: all 1s;
+}
+
+.games-carousel .slick-current.slick-active {
+    width: 16rem !important;
+    top: 0px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.icon.border {
+    border: 2px solid #fff !important;
+}
+
+.data-loan h4 {
+    font-weight: 600;
+}
+
+.data-loan .card-header h5 {
+    font-size: 1.1rem;
+}
+
+.data-loan .card-body {
+    padding: .2rem;
+}
+
+.data-loan .card-title {
+    background: #f9f9f9;
+}
+
+.data-loan .card-title small {
+    font-size: 60%;
+}
+
+.data-loan .card-body button {
+    font-size: .7rem;
+    line-height: 1;
+}
+
+.data-loan .card-body ul {
+    font-size: .7rem;
+}
+
+.data-loan .card h1 {
+    font-size: 1.3rem;
+}
+
+.modal-header img {
+    margin: 0 auto;
+}
+
+.btn-sm {
+    padding: .25em;
+    font-size: .75rem;
+}
+
+.form-check-label {
+    display: block;
+}
+
+.bg-secondary {
+    background: #eaeefa !important;
+}
+
+.modal-footer button {
+    width: 120px;
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: none;
+}
+
+.card-header {
+    padding: .75rem .25rem;
+}
+
+.slick-next, .slick-prev {
+    background: #f9f9f9;
+    z-index: 1;
+}
+
+.slick-next {
+    right: -6px;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+}
+
+h4 {
+    font-weight: 600;
+}
